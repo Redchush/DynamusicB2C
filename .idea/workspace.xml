@@ -1,0 +1,2016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="904f5a6a-c379-428b-b852-70606e2cd43f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/js/dropdown_user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/loyalty/part/dropdown_all_users.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/config/dynamusic/lp/validator/impl/SessionRoleValidator.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/config/dynamusic/system/RepositoryCommandInvoker.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/config/dynamusic/system/ValidateWhileOneFailStrategy.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/sql/frequent.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/CommandHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/CreateOrUpdateTransaction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/LoyaltyConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/validator/impl/RequiredFieldMapValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/validator/impl/RoleValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/CollectionUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/command/RepositoryCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/command/RepositoryCommandInvoker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/command/commandimpl/AbstractRepositoryCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/command/commandimpl/ChangeItemProperty.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/command/commandimpl/ChangeSingleProperty.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/command/commandimpl/CreateOrUpdateItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/command/commandimpl/GetItemListByQuery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/command/commandimpl/change_list/AddItemToListProperty.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/command/commandimpl/change_list/ChangeListProperty.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/command/commandimpl/change_list/RemoveItemFromListProperty.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/validator/DictionaryValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/validator/ValidationResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/validator/ValidationStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/validator/Validator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/validator/ValidatorCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/validator/impl/AbstractStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/validator/impl/AddFormExceptionCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/validator/impl/ConcatMsgCallback.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/common/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/common/sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/loyalty/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/loyalty/jquery-2.2.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Loyalty/config/dynamusic/lp/LoyaltyConfiguration.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Loyalty/config/dynamusic/lp/repository/FindAllUserLoyaltyDescriptor.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Loyalty/config/dynamusic/lp/validator/impl/LoyaltyUserExistValidator.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/LoyaltyConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/repository/FindAllUserLoyaltyDescriptor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/validator/LoyaltyTransactionValidator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/validator/ValidationResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/validator/impl/LoyaltyRequiredFieldValidator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/validator/impl/LoyaltyUserExistValidator.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Loyalty/sql/loyalty.sql" afterPath="$PROJECT_DIR$/../Loyalty/sql/loyalty_ddl.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dynamusic/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/../Dynamusic/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/WEB-INF/jsp/admin/loyaltyAdmin.jsp" afterPath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/WEB-INF/jsp/admin/loyaltyAdmin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/common/header.jsp" afterPath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/common/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/common/sidebar.jsp" afterPath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/common/sidebar.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/css/main.css" afterPath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/loyalty/loyaltyAdmin.jsp" afterPath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/loyalty/loyaltyAdmin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/loyalty/profileTransaction.jsp" afterPath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/loyalty/profileTransaction.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/loyalty/success_transaction.jsp" afterPath="$PROJECT_DIR$/../Dynamusic/j2ee-apps/dynamusic-j2ee/dynamusic-web.war/loyalty/success_transaction.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Loyalty/Loyalty.iml" afterPath="$PROJECT_DIR$/../Loyalty/Loyalty.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Loyalty/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/../Loyalty/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Loyalty/config/atg/userprofiling/userProfile.xml" afterPath="$PROJECT_DIR$/../Loyalty/config/atg/userprofiling/userProfile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Loyalty/config/dynamusic/lp/LoyaltyManager.properties" afterPath="$PROJECT_DIR$/../Loyalty/config/dynamusic/lp/LoyaltyManager.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Loyalty/config/dynamusic/lp/handler/LoyaltyFormHandler.properties" afterPath="$PROJECT_DIR$/../Loyalty/config/dynamusic/lp/handler/LoyaltyFormHandler.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Loyalty/config/dynamusic/lp/repository/LoyaltyRepository.xml" afterPath="$PROJECT_DIR$/../Loyalty/config/dynamusic/lp/repository/LoyaltyRepository.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Loyalty/config/dynamusic/lp/validator/impl/LoyaltyRequiredFieldValidator.properties" afterPath="$PROJECT_DIR$/../Loyalty/config/dynamusic/lp/validator/impl/LoyaltyRequiredFieldValidator.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Loyalty/sql/loyalty-data.xml" afterPath="$PROJECT_DIR$/../Loyalty/sql/loyalty-data.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/LoyaltyManager.java" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/LoyaltyManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/handler/LoyaltyFormHandler.java" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/handler/LoyaltyFormHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/repository/FindLoyaltyAmountDescriptor.java" afterPath="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/repository/FindLoyaltyAmountDescriptor.java" />
+    </list>
+    <ignored path="DynamusicB2C.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="DynamusicB2C" />
+    <favorites_list name="atg_components">
+      <favorite_root url="jar://$PROJECT_DIR$/../DCS/config/config.jar!/atg/commerce/order/OrderRepository.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../DCS/sql/install/solid/dcs_ddl.sql" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="jar://$PROJECT_DIR$/../DCS/lib/classes.jar!/atg/commerce/order/OrderManager.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="jar://$PROJECT_DIR$/../DCS/config/config.jar!/atg/commerce/order/OrderTools.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="jar://$PROJECT_DIR$/../DCS/config/config.jar!/atg/commerce/order/purchase/PurchaseProcessConfiguration.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+    <favorites_list name="xmls">
+      <favorite_root url="file://$PROJECT_DIR$/../DSS/src/config/atg/userprofiling/userProfile.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../DCS/src/config/atg/userprofiling/userProfile.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../B2BCommerce/src/config/atg/userprofiling/userProfile.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../DCS/src/config/atg/commerce/order/orderrepository.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../B2BCommerce/src/config/atg/commerce/order/orderrepository.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../B2CCommerce/src/config/atg/userprofiling/userProfile.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="jar://$PROJECT_DIR$/../DPS/config/profile.jar!/atg/userprofiling/userProfile.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="jar://$PROJECT_DIR$/../DCS/config/config.jar!/atg/commerce/pricing/pricingModels.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../DCS/src/config/atg/commerce/catalog/productCatalog.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../B2BCommerce/src/config/atg/commerce/catalog/productCatalog.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../B2BCommerce/src/config/atg/commerce/commercepipeline.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../DCS/src/config/atg/commerce/claimable/claimableRepository.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../DCS/src/config/atg/commerce/pricing/pricingModels.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="jar://$PROJECT_DIR$/../Fulfillment/config/config.jar!/atg/commerce/fulfillment/fulfillmentpipeline.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+    <favorites_list name="dynamusic">
+      <favorite_root url="file://$PROJECT_DIR$/../Loyalty/config/atg/userprofiling/userProfile.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../Loyalty/config/dynamusic/lp/repository/LoyaltyRepository.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../DynamusicLP/config/atg/commerce/order/orderrepository.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../DynamusicLP/config/dynamusic/lp/repository/LoyaltyRepository.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../DynamusicLP/sql/dynamusicLP_ddl.sql" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/../Loyalty/sql/loyalty_ddl.sql" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Loyalty" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/payment/processor/ProcCreateLoyaltyPointPaymentInfo.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/sql/dynamusicLP_ddl.sql" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/config/dynamusic/lp/order/PaymentGroupLoyaltyManager.properties" />
+        <option value="$PROJECT_DIR$/../DCS/src/config/atg/commerce/order/orderrepository.xml" />
+        <option value="$PROJECT_DIR$/../B2BCommerce/src/config/atg/commerce/order/orderrepository.xml" />
+        <option value="$PROJECT_DIR$/../DCS/AbandonedOrderServices/sql/db_components/db2/abandoned_order_ddl.sql" />
+        <option value="$PROJECT_DIR$/../DCS/AbandonedOrderServices/sql/db_components/db2/abandoned_order_views.sql" />
+        <option value="$PROJECT_DIR$/../DCS/AbandonedOrderServices/sql/db_components/mssql/abandoned_order_ddl.sql" />
+        <option value="$PROJECT_DIR$/../DAS/solid/releasenotes.txt" />
+        <option value="$PROJECT_DIR$/../DAS/src/snmp/Dynamo3Mib.mib" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/payment/LoyaltyPointPaymentStatus.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/payment/impl/LoyaltyPointPaymentStatusImpl.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/payment/impl/OrderTransactionImpl.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/LoyaltyPointPayment.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/processor/ProcHandleLoyaltyPayment.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/handler/SimpleExpressLoyaltyCheckoutFH.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/payment/processor/ProcProcessLoyaltyPointPayment.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/fulfillment/ProcProcessLoyaltyBonus.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/command/PLOrderCommandHelper.java" />
+        <option value="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/CreateOrUpdateTransaction.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/PLOrderConfig.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/config/dynamusic/lp/order/PLOrderConfig.properties" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/config/dynamusic/lp/order/OrderLoyaltyManager.properties" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/OrderLoyaltyManager.java" />
+        <option value="$PROJECT_DIR$/../Loyalty/src/dynamusic/system/command/commandimpl/CreateOrUpdateItem.java" />
+        <option value="$PROJECT_DIR$/../DCS/src/Java/atg/commerce/order/processor/OrderRepositoryUtils.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/PLOrderConstants.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/processor/ProcSavePaymentStatusObjectsAndTransaction.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/processor/ProcSavePaymentStatusObjectsAndAddTransaction.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/processor/ProcUpdateLoyaltyBonus.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/config/atg/commerce/order/processor/SavePaymentStatusObjects.properties" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/config/atg/commerce/order/OrderTools.properties" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/config/atg/commerce/order/orderrepository.xml" />
+        <option value="$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/plcheckout2/plpurchaseinfo.jsp" />
+        <option value="$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/plcheckout/plpurchaseinfo.jsp" />
+        <option value="$PROJECT_DIR$/../LoyaltyTest/j2ee-apps/loyalty-j2ee/loyalty-web.war/test/allRelp.jsp" />
+        <option value="$PROJECT_DIR$/../LoyaltyTest/j2ee-apps/loyalty-j2ee/loyalty-web.war/test/shGrStates.jsp" />
+        <option value="$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/plcheckout2/plamount.jsp" />
+        <option value="$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/plcheckout/plamount.jsp" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/handler/ExpressLoyaltyCheckoutFormHandler.java" />
+        <option value="$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/plcheckout2/plorderconfirm.jsp" />
+        <option value="$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/plcheckout/plorderconfirm.jsp" />
+        <option value="$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/orders/lastorderstatus.jsp" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/payment/LoyaltyPointPaymentProcessor.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/payment/impl/LoyaltyPointPaymentProcessorImpl.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/config/dynamusic/lp/order/payment/impl/LoyaltyPointPaymentProcessorImpl.properties" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/config/dynamusic/lp/handler/ExpressLoyaltyCheckoutFormHandler.properties" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/config/atg/commerce/order/processor/SavePriceInfoObjects.properties" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/config/atg/commerce/order/processor/LoadPriceInfoObjects.properties" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/payment/LoyaltyPointPaymentManager.java" />
+        <option value="$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/PaymentGroupLoyaltyManager.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1932" />
+    <option name="height" value="1052" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoyaltyTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoyaltyTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee-apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loyalty-j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoyaltyTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee-apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loyalty-j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loyalty-web.war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoyaltyTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee-apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loyalty-j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loyalty-web.war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Loyalty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Loyalty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Loyalty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pricing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="registry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="payment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee-apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamusicb2c-j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee-apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamusicb2c-j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamusicb2c.war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee-apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamusicb2c-j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamusicb2c.war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plcheckout2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee-apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamusicb2c-j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamusicb2c.war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plcheckout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2ee-apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamusicb2c-j2ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamusicb2c.war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DCS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DCS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DCS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DCS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamusicB2C" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DCS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.1640178" />
+    <property name="project.structure.side.proportion" value="0.17142858" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fulfillment/config/config.jar!/" />
+    <property name="SearchEverywhereHistoryKey" value="LoyaltyOrde&#9;PSI&#9;JAVA://dynamusic.lp.order.pricing.LoyaltyOrderPriceInfo&#10;PaymentGroupLo&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/src/dynamusic/lp/order/PaymentGroupLoyaltyManager.java&#10;LoyaltyPaymentM&#9;PSI&#9;JAVA://dynamusic.lp.order.payment.LoyaltyPointPaymentManager&#10;CalculatorT&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/config/dynamusic/lp/order/pricing/LoyaltyCalculatorTools.properties&#10;ExpressL&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/config/dynamusic/lp/handler/ExpressLoyaltyCheckoutFormHandler.properties&#10;LoyaltyPointPaymentProcessor&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/config/dynamusic/lp/order/payment/impl/LoyaltyPointPaymentProcessorImpl.properties&#10;PaymentGroupM&#9;PSI&#9;JAVA://dynamusic.lp.order.PaymentGroupLoyaltyManager&#10;OrderStates&#9;FILE&#9;jar://C:/ATG/ATG2007.1/DCS/config/config.jar!/atg/commerce/states/OrderStates.properties&#10;Order&#9;FILE&#9;jar://C:/ATG/ATG2007.1/DCS/lib/classes.jar!/atg/commerce/order/OrderImpl.class&#10;Express&#9;PSI&#9;JAVA://dynamusic.lp.order.handler.ExpressLoyaltyCheckoutFormHandler&#10;orderre&#9;FILE&#9;file://C:/ATG/ATG2007.1/DCS/src/config/atg/commerce/order/orderrepository.xml&#10;OrderT&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/config/atg/commerce/order/OrderTools.properties&#10;PLOrder&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/config/dynamusic/lp/order/PLOrderConfig.properties&#10;OrderToo&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/config/atg/commerce/order/OrderTools.properties&#10;LoyaltyM&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/config/dynamusic/lp/order/OrderLoyaltyManager.properties&#10;OrderImpl&#9;FILE&#9;jar://C:/ATG/ATG2007.1/DCS/lib/classes.jar!/atg/commerce/order/OrderImpl.class&#10;OrderPriceINfo&#9;FILE&#9;jar://C:/ATG/ATG2007.1/DCS/lib/classes.jar!/atg/commerce/pricing/OrderPriceInfo.class&#10;SaveOrderP&#9;FILE&#9;jar://C:/ATG/ATG2007.1/DCS/config/config.jar!/atg/commerce/order/processor/SaveOrderObject.properties&#10;SavePaymentS&#9;FILE&#9;file://C:/ATG/ATG2007.1/DCS/src/Java/atg/commerce/order/processor/ProcSavePaymentStatusObjects.java&#10;OrderTrans&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/src/dynamusic/lp/order/payment/impl/OrderTransactionImpl.java&#10;PLOrderCon&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/src/dynamusic/lp/order/PLOrderConfig.java&#10;OrderLoy&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/src/dynamusic/lp/order/OrderLoyaltyManager.java&#10;Processor&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/src/dynamusic/lp/order/payment/impl/LoyaltyPointPaymentProcessorImpl.java&#10;OrderPricin&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/config/atg/commerce/pricing/OrderPricingEngine.properties&#10;LoyaltyPaymentSt&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/src/dynamusic/lp/order/payment/impl/LoyaltyPointPaymentStatusImpl.java&#10;OrderPri&#9;PSI&#9;JAVA://dynamusic.lp.order.pricing.LoyaltyOrderPriceInfo&#10;ProcSavePaymentStatusObjects&#9;FILE&#9;file://C:/ATG/ATG2007.1/DCS/src/Java/atg/commerce/order/processor/ProcSavePaymentStatusObjects.java&#10;AuthorizePayment&#9;PSI&#9;JAVA://atg.commerce.order.processor.ProcAuthorizePayment&#10;ProcProcessCr&#9;PSI&#9;JAVA://atg.commerce.payment.processor.ProcProcessCreditCard&#10;Bonus&#9;PSI&#9;JAVA://dynamusic.lp.order.PLOrderConfig.RoundRules.Bonus&#10;SavePaymentStatusObjects&#9;FILE&#9;jar://C:/ATG/ATG2007.1/DCS/config/config.jar!/atg/commerce/order/processor/SavePaymentStatusObjects.properties&#10;PaymentMan&#9;FILE&#9;jar://C:/ATG/ATG2007.1/DCS/lib/classes.jar!/atg/commerce/payment/PaymentManager.class&#10;SavePayment&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/config/atg/commerce/order/processor/SavePaymentGroupObjects.properties&#10;OrderTools.pro&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/config/atg/commerce/order/OrderTools.properties&#10;HardgoodFulfiller&#9;FILE&#9;file://C:/ATG/ATG2007.1/DCS/src/Java/atg/commerce/fulfillment/HardgoodFulfiller.java&#10;ProcStor&#9;PSI&#9;JAVA://atg.commerce.payment.processor.ProcProcessStoreCredit&#10;Store&#9;PSI&#9;JAVA://atg.commerce.payment.StoreCreditProcessorImpl&#10;LoyaltyP&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/src/dynamusic/lp/order/payment/processor/ProcCreateLoyaltyPointPaymentInfo.java&#10;Loy&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/src/dynamusic/lp/order/payment/impl/LoyaltyPointPaymentProcessorImpl.java&#10;ProcProce&#9;PSI&#9;JAVA://dynamusic.lp.order.payment.processor.ProcProcessLoyaltyPointPayment&#10;verifyShippingGroupForCompletion&#9;PSI&#9;JAVA://atg.commerce.fulfillment.processor.ProcVerifyShippingGroupForCompletion&#10;OrderTransa&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/src/dynamusic/lp/order/payment/impl/OrderTransactionImpl.java&#10;LoyaltyPointPaymentProcessorImpl&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/src/dynamusic/lp/order/payment/impl/LoyaltyPointPaymentProcessorImpl.java&#10;GSA&#9;FILE&#9;jar://C:/ATG/ATG2007.1/DAS/lib/classes.jar!/atg/adapter/gsa/GSAItemDescriptor.class&#10;GSAItemDescriptor&#9;PSI&#9;JAVA://atg.adapter.gsa.GSAItemDescriptor&#10;OrderLo&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/src/dynamusic/lp/order/OrderLoyaltyManager.java&#10;LoyaltyMan&#9;FILE&#9;file://C:/ATG/ATG2007.1/Loyalty/config/dynamusic/lp/LoyaltyManager.properties&#10;OrderL&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/config/dynamusic/lp/order/OrderLoyaltyManager.properties&#10;LoyaltyRe&#9;FILE&#9;file://C:/ATG/ATG2007.1/Loyalty/src/dynamusic/lp/validator/impl/LoyaltyRequiredFieldValidator.java&#10;LoyaltyRequ&#9;FILE&#9;file://C:/ATG/ATG2007.1/DynamusicLP/config/dynamusic/lp/validator/impl/OrderLoyaltyRequiredFieldsValidator.properties" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/../Loyalty/src/dynamusic/lp/command" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dynamusic.lp.order.pricing" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="dynamusic.system.CollectionUtils" />
+      <recent name="dynamusic.lp.CommandHelper" />
+      <recent name="dynamusic.lp.LoyaltyConstants" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="dynamusic.lp.validator.impl" />
+      <recent name="dynamusic.lp.validator" />
+      <recent name="dynamusic.lp.order.command" />
+      <recent name="dynamusic.lp.order" />
+      <recent name="dynamusic.system.command.commandimpl.change_list" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ATG\ATG2007.1\DynamusicLP\config\atg\commerce\fulfillment" />
+      <recent name="C:\ATG\ATG2007.1\DynamusicB2C\j2ee-apps\dynamusicb2c-j2ee\dynamusicb2c.war\plcheckout2" />
+      <recent name="C:\ATG\ATG2007.1\DynamusicLP\test" />
+      <recent name="C:\ATG\ATG2007.1\DynamusicLP\test\dynamusic\lp\order\pricing" />
+      <recent name="C:\ATG\ATG2007.1\DynamusicLP\config\atg\commerce\registry" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ATG\ATG2007.1\DynamusicB2C\j2ee-apps\dynamusicb2c-j2ee\dynamusicb2c.war\common\checkout" />
+      <recent name="C:\ATG\ATG2007.1\DynamusicB2C\j2ee-apps\dynamusicb2c-j2ee\dynamusicb2c.war\checkout" />
+      <recent name="C:\ATG\ATG2007.1\DynamusicLP\config\atg" />
+      <recent name="C:\ATG\ATG2007.1\DynamusicLP\config\atg\commerce\order\processor" />
+      <recent name="C:\ATG\ATG2007.1\DynamusicLP\config\dynamusic\lp\order\processor" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="dynamusic.lp.order.payment" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LoyaltyCalculatorToolsIntegrationConfigTest">
+    <configuration default="false" name="LoyaltyCalculatorToolsIntegrationConfigTest.applyAddBonusPL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dynamusic.lp.order.pricing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DynamusicLP" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dynamusic.lp.order.pricing" />
+      <option name="MAIN_CLASS_NAME" value="dynamusic.lp.order.pricing.LoyaltyCalculatorToolsIntegrationConfigTest" />
+      <option name="METHOD_NAME" value="applyAddBonusPL" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LoyaltyCalculatorToolsIntegrationConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dynamusic.lp.order.pricing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DynamusicLP" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dynamusic.lp.order.pricing" />
+      <option name="MAIN_CLASS_NAME" value="dynamusic.lp.order.pricing.LoyaltyCalculatorToolsIntegrationConfigTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 4.0.5.GA1" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53029" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LoyaltyCalculatorToolsIntegrationConfigTest.applyAddBonusPL" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LoyaltyCalculatorToolsIntegrationConfigTest" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LoyaltyCalculatorToolsIntegrationConfigTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LoyaltyCalculatorToolsIntegrationConfigTest.applyAddBonusPL" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="904f5a6a-c379-428b-b852-70606e2cd43f" name="Default" comment="" />
+      <created>1495188154333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1495188154333</updated>
+      <workItem from="1495188162684" duration="7967000" />
+      <workItem from="1495377527165" duration="14568000" />
+      <workItem from="1495450593806" duration="26125000" />
+      <workItem from="1495532087676" duration="11534000" />
+      <workItem from="1496005690147" duration="2289000" />
+      <workItem from="1496053185456" duration="8997000" />
+      <workItem from="1496233229924" duration="12265000" />
+      <workItem from="1496329067223" duration="63000" />
+      <workItem from="1496951835906" duration="13364000" />
+      <workItem from="1497260439958" duration="5698000" />
+      <workItem from="1497350734693" duration="9682000" />
+      <workItem from="1497437409160" duration="20529000" />
+      <workItem from="1497513720000" duration="13144000" />
+      <workItem from="1498733785538" duration="4943000" />
+      <workItem from="1498812595321" duration="18800000" />
+      <workItem from="1498901001591" duration="37741000" />
+      <workItem from="1498988994927" duration="21820000" />
+      <workItem from="1499117181756" duration="584000" />
+      <workItem from="1499159836253" duration="795000" />
+      <workItem from="1499161667397" duration="3054000" />
+      <workItem from="1499183819203" duration="50213000" />
+      <workItem from="1499536927026" duration="18196000" />
+      <workItem from="1499694106790" duration="29776000" />
+      <workItem from="1499782485397" duration="34429000" />
+      <workItem from="1499859096732" duration="45246000" />
+      <workItem from="1499945712616" duration="82226000" />
+      <workItem from="1500091765950" duration="8169000" />
+      <workItem from="1500201884617" duration="80165000" />
+      <workItem from="1500350217201" duration="26678000" />
+      <workItem from="1500442820877" duration="23121000" />
+      <workItem from="1501149661429" duration="584000" />
+      <workItem from="1501422489867" duration="30748000" />
+    </task>
+    <task id="LOCAL-00001" summary="Loyalty module">
+      <created>1499252373073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1499252373073</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="663513000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1932" height="1052" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18241759" sideWeight="0.4911991" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18241759" sideWeight="0.50880086" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="119" y="363" width="735" height="528" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22085561" sideWeight="0.6164835" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31648353" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19306931" sideWeight="0.7594086" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22085561" sideWeight="0.3835165" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Loyalty module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loyalty module" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="22" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../B2BCommerce/src/config/atg/commerce/commercepipeline.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="201" column="22" selection-start-line="201" selection-start-column="22" selection-end-line="201" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/payment/impl/OrderTransactionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../DCS/lib/classes.jar!/atg/commerce/pricing/AmountInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../DCS/lib/classes.jar!/atg/commerce/pricing/OrderPriceInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#3161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DCS/src/Java/atg/commerce/order/processor/OrderRepositoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="301" column="21" selection-start-line="301" selection-start-column="21" selection-end-line="301" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../DCS/lib/classes.jar!/atg/commerce/order/PropertyNameConstants.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/PLOrderConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="38" column="67" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DCS/src/Java/atg/commerce/order/processor/ProcSavePaymentStatusObjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="886">
+          <caret line="373" column="18" selection-start-line="373" selection-start-column="11" selection-end-line="373" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/config/dynamusic/lp/order/OrderLoyaltyManager.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/config/atg/registry/pipelineRegistry.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/processor/ProcHandleLoyaltyPayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1232">
+          <caret line="50" column="113" selection-start-line="50" selection-start-column="113" selection-end-line="50" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/config/dynamusic/lp/order/PLOrderConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/config/atg/commerce/order/OrderTools.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/config/dynamusic/lp/repository/LoyaltyRepository.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/processor/ProcUpdateLoyaltyBonus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/processor/ProcSavePaymentStatusObjectsAndAddTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2376">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Loyalty/config/dynamusic/lp/repository/LoyaltyRepository.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/config/atg/commerce/order/orderrepository.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="53" column="50" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DCS/src/config/atg/commerce/order/orderrepository.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="998">
+          <caret line="632" column="58" selection-start-line="632" selection-start-column="50" selection-end-line="632" selection-end-column="58" />
+          <folding>
+            <element signature="n#property#1;n#table#0;n#item-descriptor#4;n#gsa-template#0;n#!!top" expanded="false" />
+            <element signature="n#property#2;n#table#0;n#item-descriptor#4;n#gsa-template#0;n#!!top" expanded="false" />
+            <element signature="n#property#3;n#table#0;n#item-descriptor#4;n#gsa-template#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/common/checkout/shipping_method.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/common/checkout/shipping_info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LoyaltyTest/j2ee-apps/loyalty-j2ee/loyalty-web.war/test/allRelp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LoyaltyTest/j2ee-apps/loyalty-j2ee/loyalty-web.war/test/shGrStates.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/plcheckout/plpurchaseinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/plcheckout2/plpurchaseinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/plcheckout2/plamount.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+          <folding>
+            <marker date="1501457897576" expanded="true" signature="529:4389" ph="..." />
+            <marker date="1501457897576" expanded="true" signature="605:4379" ph="..." />
+            <marker date="1501457897576" expanded="true" signature="749:4369" ph="..." />
+            <marker date="1501457897576" expanded="true" signature="758:4358" ph="..." />
+            <marker date="1501457897576" expanded="true" signature="923:4348" ph="..." />
+            <marker date="1501457897576" expanded="true" signature="2279:3047" ph="..." />
+            <marker date="1501457897576" expanded="true" signature="2357:2978" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/plcheckout2/plorderconfirm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/plcheckout/plamount.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/plcheckout/plorderconfirm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../DCS/lib/classes.jar!/atg/commerce/order/OrderImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="50" column="70" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../DCS/lib/classes.jar!/atg/commerce/order/Order.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-891">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../B2BCommerce/config/config.jar!/atg/commerce/states/OrderStates.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../DCS/config/config.jar!/atg/commerce/states/OrderStates.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2ee-apps/dynamusicb2c-j2ee/dynamusicb2c.war/orders/lastorderstatus.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/config/dynamusic/lp/order/payment/impl/LoyaltyPointPaymentProcessorImpl.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/payment/LoyaltyPointPaymentProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/config/dynamusic/lp/handler/ExpressLoyaltyCheckoutFormHandler.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/payment/impl/LoyaltyPointPaymentProcessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1091">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/handler/SpendPLHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/config/dynamusic/lp/order/pricing/LoyaltyCalculatorTools.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/handler/ExpressLoyaltyCheckoutFormHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+          <folding>
+            <element signature="e#6348#6349#0" expanded="true" />
+            <element signature="e#6393#6394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/config/atg/commerce/order/processor/SavePaymentGroupObjects.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/config/atg/commerce/order/processor/SavePriceInfoObjects.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/config/atg/commerce/order/processor/LoadPriceInfoObjects.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/config/atg/commerce/order/processor/LoadPaymentGroupObjects.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/config/atg/commerce/order/processor/AuthorizePayment.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/config/atg/commerce/order/processor/SavePaymentStatusObjects.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/payment/LoyaltyPointPaymentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/PaymentGroupLoyaltyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DynamusicLP/src/dynamusic/lp/order/pricing/LoyaltyOrderPriceInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23822713" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (DynamusicB2B)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17142858" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>ATG2007</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17142858" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17142858" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Fulfillment</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17142858" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17142858" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20608366" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
